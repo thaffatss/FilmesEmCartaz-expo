@@ -24,6 +24,9 @@ const App = () => {
     requestMovies();
   }, []);
 
+  // {loading &&} é um condição que verifica se o state setLoading está como true,
+  // se sim, mostra um indicador de loading. caso contrario {!loading &&} mostra os
+  // filmes em cartaz.
   return (
     <SafeAreaView style={styles.container}>
       {loading && 
