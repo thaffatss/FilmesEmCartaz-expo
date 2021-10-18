@@ -3,9 +3,11 @@ import { SafeAreaView, Text, Button, FlatList, Image, View, StyleSheet, Activity
 
 const App = () => {
 
+  // states para mudar o status de loading e adicionar os filmes em cartaz.
   const [loading, setLoading] = useState(true);
   const [movies, setMovies] = useState([]); // Cria state vazia
 
+  // useEffect uma função que executa toda vez que o app é inicializado.
   useEffect(()=>{
     // Função requisita dados via json da API e pega todos (Função assincrona).
     const requestMovies = async () => {
