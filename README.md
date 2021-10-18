@@ -5,7 +5,6 @@ Project focused on study, puts into practice the techniques and knowledge used f
 Using the necessary resources like states, useEffect to automatically load the live movies as soon as the request is completed.
 We use asynchronous coding in this project and to understand both models (asynchronous and synchronous).
 
---------------------------------------------------------------------------------------------------------------------------------
 
 
 
